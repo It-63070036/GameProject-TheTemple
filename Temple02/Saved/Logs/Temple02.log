@@ -7747,3 +7747,357 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.05.19-08.44.40:541][ 27]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
 [2023.05.19-08.45.57:390][ 62]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Develop/Blueprints/BP_SpinDoor.BP_SpinDoor
 [2023.05.19-08.45.57:391][ 62]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.19-08.49.12:369][750]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.19-08.49.12:898][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.49.12:954][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.49.12:978][782]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.49.12:979][782]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacter23F12C344A3CAF0AAA8052A8E3012D6C.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.49.12:986][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 26.2 sec)
+[2023.05.19-08.49.12:999][782]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.49.12:999][782]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.49.13:475][820]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.05.19-08.49.13:619][820]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.05.19-08.49.15:313][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.49.15:372][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.49.15:397][940]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.49.15:397][940]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacterC16F29BB452AB04E95519B8AD7CBD312.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.49.15:405][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 26.3 sec)
+[2023.05.19-08.49.15:414][940]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.49.15:414][940]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.49.17:381][114]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.19-08.49.17:387][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.19-08.49.17:387][114]PIE: New page: PIE session: Prototype (May 19, 2023, 10:49:17 PM)
+[2023.05.19-08.49.17:419][114]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.49.17:434][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015681s)
+[2023.05.19-08.49.17:435][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Prototype.Prototype to /Game/Map/UEDPIE_0_Prototype.Prototype (0.015715s)
+[2023.05.19-08.49.17:435][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.19-08.49.17:435][114]LogAIModule: Creating AISystem for world Prototype
+[2023.05.19-08.49.17:435][114]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2023.05.19-08.49.17:521][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.05.19-08.49.17:524][114]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.05.19-08.49.17:524][114]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.19-08.49.17:524][114]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.19-08.49.17:524][114]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.19-08.49.17:524][114]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.19-08.49.17:524][114]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.19-08.49.17:524][114]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.19-08.49.17:524][114]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.19-08.49.17:524][114]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.19-08.49.17:525][114]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.19-08.49.17:525][114]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.19-08.49.17:525][114]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.19-08.49.17:527][114]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.19-08.49.17:556][114]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2023.05.19-08.49.17:556][114]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.19-08.49.17:556][114]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.19-08.49.17:556][114]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.19-08.49.17:557][114]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.05.19-08.49.17:557][114]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.05.19-08.49.17:558][114]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.05.19-08.49.17:559][114]LogInit: FAudioDevice initialized.
+[2023.05.19-08.49.17:559][114]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.05.19-08.49.17:559][114]LogAudio: Display: Audio Device (ID: 25) registered with world 'Prototype'.
+[2023.05.19-08.49.17:562][114]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.05.19-08.49.17:564][114]LogWorld: Bringing World /Game/Map/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2023.05.19-15.49.17
+[2023.05.19-08.49.17:564][114]LogWorld: Bringing up level for play took: 0.002045
+[2023.05.19-08.49.17:566][114]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.05.19-08.49.17:569][114]PIE: Server logged in
+[2023.05.19-08.49.17:570][114]PIE: Play in editor total start time 0.182 seconds.
+[2023.05.19-08.49.24:789][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.49.24:789][784]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.49.24:789][784]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.49.24:790][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.49.24:820][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.19-08.49.24:827][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.49.24:906][784]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.19-08.49.24:906][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.05.19-08.49.24:908][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.05.19-08.49.24:911][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.49.24:916][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.05.19-08.49.24:952][785]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.05.19-08.49.25:592][844]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.49.25:639][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Prototype" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Map/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.19-08.49.25:736][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.05.19-08.49.25:759][844]LogSavePackage: Moving output files for package: /Game/Map/Prototype
+[2023.05.19-08.49.25:759][844]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/Prototype921EDF564866245D224B5F8A0F18C19F.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Map/Prototype.umap'
+[2023.05.19-08.49.25:773][844]LogFileHelpers: Saving map 'Prototype' took 0.134
+[2023.05.19-08.49.25:780][844]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 26.5 sec)
+[2023.05.19-08.49.25:788][844]AssetCheck: New page: Asset Save: Prototype
+[2023.05.19-08.49.25:788][844]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/Prototype.Prototype
+[2023.05.19-08.49.44:924][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.49.44:972][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.49.44:997][276]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.49.44:997][276]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacterD2B7143F44D794DF7BBD7EB7904D5D5A.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.49.45:005][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 26.5 sec)
+[2023.05.19-08.49.45:022][276]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.49.45:022][276]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.49.45:675][326]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.05.19-08.49.45:813][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.05.19-08.49.46:190][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.49.46:238][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.49.46:261][347]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.49.46:261][347]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacterD9B06C064A8F2DC2448EEFB8C13466D9.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.49.46:269][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 26.6 sec)
+[2023.05.19-08.49.46:280][347]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.49.46:280][347]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.49.49:192][598]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.19-08.49.49:200][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.19-08.49.49:200][598]PIE: New page: PIE session: Prototype (May 19, 2023, 10:49:49 PM)
+[2023.05.19-08.49.49:229][598]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.49.49:246][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017535s)
+[2023.05.19-08.49.49:247][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Prototype.Prototype to /Game/Map/UEDPIE_0_Prototype.Prototype (0.017574s)
+[2023.05.19-08.49.49:247][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.19-08.49.49:247][598]LogAIModule: Creating AISystem for world Prototype
+[2023.05.19-08.49.49:247][598]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2023.05.19-08.49.49:328][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.05.19-08.49.49:332][598]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.05.19-08.49.49:332][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.19-08.49.49:332][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.19-08.49.49:332][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.19-08.49.49:332][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.19-08.49.49:332][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.19-08.49.49:332][598]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.19-08.49.49:332][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.19-08.49.49:332][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.19-08.49.49:332][598]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.19-08.49.49:332][598]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.19-08.49.49:332][598]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.19-08.49.49:334][598]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.19-08.49.49:363][598]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2023.05.19-08.49.49:363][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.19-08.49.49:363][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.19-08.49.49:363][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.19-08.49.49:364][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.05.19-08.49.49:364][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.05.19-08.49.49:366][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.05.19-08.49.49:366][598]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.05.19-08.49.49:366][598]LogInit: FAudioDevice initialized.
+[2023.05.19-08.49.49:366][598]LogAudio: Display: Audio Device (ID: 26) registered with world 'Prototype'.
+[2023.05.19-08.49.49:369][598]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.05.19-08.49.49:371][598]LogWorld: Bringing World /Game/Map/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2023.05.19-15.49.49
+[2023.05.19-08.49.49:371][598]LogWorld: Bringing up level for play took: 0.002083
+[2023.05.19-08.49.49:373][598]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2023.05.19-08.49.49:376][598]PIE: Server logged in
+[2023.05.19-08.49.49:377][598]PIE: Play in editor total start time 0.177 seconds.
+[2023.05.19-08.50.00:349][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.50.00:349][631]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.50.00:349][631]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.50.00:350][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.50.00:359][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.19-08.50.00:367][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.50.00:445][631]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.19-08.50.00:445][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.05.19-08.50.00:447][631]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.05.19-08.50.00:450][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.50.00:453][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.05.19-08.50.00:491][632]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.05.19-08.50.35:282][355]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.50.35:341][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.50.35:365][355]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.50.35:365][355]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacter8CC183EB44E6A30F82B5F384D3A6EE7A.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.50.35:374][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 26.7 sec)
+[2023.05.19-08.50.35:385][355]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.50.35:385][355]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.50.36:220][423]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.05.19-08.50.36:361][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.05.19-08.50.53:956][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.50.54:007][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.50.54:033][760]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.50.54:033][760]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacterAAB0C55C4FD21553B1A5B985E343373F.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.50.54:040][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 26.8 sec)
+[2023.05.19-08.50.54:049][760]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.50.54:049][760]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.51.13:386][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.51.13:441][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.51.13:466][188]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.51.13:467][188]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacterE2C5B9F146C564FD91DCE0931E355788.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.51.13:474][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 26.9 sec)
+[2023.05.19-08.51.13:488][188]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.51.13:488][188]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.51.15:964][374]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.05.19-08.51.16:097][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.05.19-08.51.16:147][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.51.16:208][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.51.16:233][374]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.51.16:234][374]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacterDA82E8A24AD93D474CAC51919A7FE179.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.51.16:241][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 27.0 sec)
+[2023.05.19-08.51.16:253][374]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.51.16:253][374]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.51.16:352][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.51.16:408][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.51.16:434][375]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.51.16:434][375]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacter6393105044708807BF3BDA98A7C806A8.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.51.16:440][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 27.1 sec)
+[2023.05.19-08.51.16:451][375]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.51.16:451][375]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.51.19:615][613]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.19-08.51.19:622][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.19-08.51.19:622][613]PIE: New page: PIE session: Prototype (May 19, 2023, 10:51:19 PM)
+[2023.05.19-08.51.19:622][613]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.51.19:639][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017510s)
+[2023.05.19-08.51.19:640][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Prototype.Prototype to /Game/Map/UEDPIE_0_Prototype.Prototype (0.017544s)
+[2023.05.19-08.51.19:640][613]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.19-08.51.19:640][613]LogAIModule: Creating AISystem for world Prototype
+[2023.05.19-08.51.19:640][613]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2023.05.19-08.51.19:720][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.05.19-08.51.19:726][613]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.05.19-08.51.19:726][613]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.19-08.51.19:726][613]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.19-08.51.19:726][613]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.19-08.51.19:726][613]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.19-08.51.19:726][613]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.19-08.51.19:726][613]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.19-08.51.19:726][613]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.19-08.51.19:726][613]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.19-08.51.19:727][613]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.19-08.51.19:727][613]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.19-08.51.19:727][613]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.19-08.51.19:729][613]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.19-08.51.19:756][613]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2023.05.19-08.51.19:757][613]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.19-08.51.19:757][613]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.19-08.51.19:757][613]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.19-08.51.19:758][613]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.05.19-08.51.19:758][613]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2023.05.19-08.51.19:759][613]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.05.19-08.51.19:759][613]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.05.19-08.51.19:759][613]LogInit: FAudioDevice initialized.
+[2023.05.19-08.51.19:759][613]LogAudio: Display: Audio Device (ID: 27) registered with world 'Prototype'.
+[2023.05.19-08.51.19:763][613]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.05.19-08.51.19:764][613]LogWorld: Bringing World /Game/Map/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2023.05.19-15.51.19
+[2023.05.19-08.51.19:765][613]LogWorld: Bringing up level for play took: 0.001906
+[2023.05.19-08.51.19:766][613]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2023.05.19-08.51.19:769][613]PIE: Server logged in
+[2023.05.19-08.51.19:770][613]PIE: Play in editor total start time 0.149 seconds.
+[2023.05.19-08.51.24:289][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.51.24:289][ 19]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.51.24:289][ 19]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.51.24:289][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.24:299][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.19-08.51.24:307][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.24:385][ 19]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.19-08.51.24:385][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.05.19-08.51.24:387][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.05.19-08.51.24:393][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.51.24:398][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.05.19-08.51.24:433][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.05.19-08.51.39:342][127]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.51.39:342][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.41:723][265]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.19-08.51.41:723][265]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.51.41:723][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.42:214][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.19-08.51.42:214][292]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.51.42:214][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.42:579][308]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.51.42:579][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.42:872][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.19-08.51.42:872][323]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.51.42:872][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.43:354][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.19-08.51.43:354][350]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.51.43:354][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.51.45:330][459]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.51.45:331][459]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.19-08.52.14:056][456]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
+[2023.05.19-08.52.14:056][456]LogWindowsTextInputMethodSystem: Activated input method: Thai (Thailand) - (Keyboard).
+[2023.05.19-08.52.58:531][266]BlueprintLog: New page: Compile BP_ProjectTile
+[2023.05.19-08.52.58:727][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.05.19-08.52.58:764][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.52.58:841][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_ProjectTile" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_ProjectTile.uasset" SILENT=true
+[2023.05.19-08.52.58:845][266]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_ProjectTile
+[2023.05.19-08.52.58:845][266]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_ProjectTile60E7E55945C33C96EDBF818910E1568B.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_ProjectTile.uasset'
+[2023.05.19-08.52.58:853][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 27.2 sec)
+[2023.05.19-08.52.58:864][266]AssetCheck: New page: Asset Save: BP_ProjectTile
+[2023.05.19-08.52.58:864][266]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_ProjectTile.BP_ProjectTile
+[2023.05.19-08.52.59:077][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.52.59:143][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_ProjectTile" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_ProjectTile.uasset" SILENT=true
+[2023.05.19-08.52.59:146][278]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_ProjectTile
+[2023.05.19-08.52.59:147][278]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_ProjectTileB1735CA845DA3114D6CBDAAB33E3064E.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_ProjectTile.uasset'
+[2023.05.19-08.52.59:153][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 27.2 sec)
+[2023.05.19-08.52.59:161][278]AssetCheck: New page: Asset Save: BP_ProjectTile
+[2023.05.19-08.52.59:161][278]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_ProjectTile.BP_ProjectTile
+[2023.05.19-08.53.06:362][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.53.06:394][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.53.06:419][780]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.53.06:419][780]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacter32D0857847309D1205DC049CF6D5AFD5.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.53.06:425][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 27.3 sec)
+[2023.05.19-08.53.06:438][780]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.53.06:438][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.53.08:037][920]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.19-08.53.08:044][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.19-08.53.08:044][920]PIE: New page: PIE session: Prototype (May 19, 2023, 10:53:08 PM)
+[2023.05.19-08.53.08:044][920]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.53.08:061][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017191s)
+[2023.05.19-08.53.08:061][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Prototype.Prototype to /Game/Map/UEDPIE_0_Prototype.Prototype (0.017222s)
+[2023.05.19-08.53.08:061][920]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.19-08.53.08:061][920]LogAIModule: Creating AISystem for world Prototype
+[2023.05.19-08.53.08:062][920]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2023.05.19-08.53.08:120][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.05.19-08.53.08:126][920]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.05.19-08.53.08:126][920]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.19-08.53.08:126][920]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.19-08.53.08:126][920]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.19-08.53.08:126][920]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.19-08.53.08:126][920]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.19-08.53.08:126][920]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.19-08.53.08:126][920]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.19-08.53.08:126][920]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.19-08.53.08:126][920]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.19-08.53.08:126][920]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.19-08.53.08:126][920]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.19-08.53.08:129][920]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.19-08.53.08:159][920]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2023.05.19-08.53.08:160][920]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.19-08.53.08:160][920]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.19-08.53.08:160][920]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.19-08.53.08:161][920]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.05.19-08.53.08:161][920]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.05.19-08.53.08:162][920]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.05.19-08.53.08:162][920]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.05.19-08.53.08:162][920]LogInit: FAudioDevice initialized.
+[2023.05.19-08.53.08:162][920]LogAudio: Display: Audio Device (ID: 28) registered with world 'Prototype'.
+[2023.05.19-08.53.08:166][920]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.05.19-08.53.08:168][920]LogWorld: Bringing World /Game/Map/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2023.05.19-15.53.08
+[2023.05.19-08.53.08:168][920]LogWorld: Bringing up level for play took: 0.002224
+[2023.05.19-08.53.08:170][920]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.05.19-08.53.08:173][920]PIE: Server logged in
+[2023.05.19-08.53.08:173][920]PIE: Play in editor total start time 0.13 seconds.
+[2023.05.19-08.53.10:149][ 83]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 2
+[2023.05.19-08.53.10:331][102]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 1
+[2023.05.19-08.53.10:534][122]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.10:736][142]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.12:224][288]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.14:197][475]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.18:222][853]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.18:422][872]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.18:632][892]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.18:852][912]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You are Dead
+[2023.05.19-08.53.19:959][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.53.19:959][ 15]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Prototype
+[2023.05.19-08.53.19:959][ 15]LogWorld: UWorld::CleanupWorld for Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.05.19-08.53.19:959][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.53.19:984][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.19-08.53.19:991][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.19-08.53.20:043][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.19-08.53.20:043][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.05.19-08.53.20:045][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.05.19-08.53.20:049][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.19-08.53.20:052][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.05.19-08.53.20:092][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.05.19-08.53.34:013][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.53.34:080][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.53.34:105][ 89]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.53.34:105][ 89]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacterA68CCB9B49CDC215E0B985BC903D560F.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.53.34:113][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 27.4 sec)
+[2023.05.19-08.53.34:122][ 89]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.53.34:122][ 89]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.19-08.53.34:478][119]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.05.19-08.53.34:575][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.05.19-08.53.35:103][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.19-08.53.35:161][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Develop/Blueprints/BP_FirstPersonCharacter" FILE="F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2023.05.19-08.53.35:187][153]LogSavePackage: Moving output files for package: /Game/Develop/Blueprints/BP_FirstPersonCharacter
+[2023.05.19-08.53.35:187][153]LogSavePackage: Moving 'F:/Github/Temple/GameProject-TheTemple/Temple02/Saved/BP_FirstPersonCharacter2797984342F288A60A570FB5BA45B574.tmp' to 'F:/Github/Temple/GameProject-TheTemple/Temple02/Content/Develop/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.19-08.53.35:195][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 27.5 sec)
+[2023.05.19-08.53.35:206][153]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.05.19-08.53.35:206][153]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Develop/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
